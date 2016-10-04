@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Vaporwave Text Generator",
+	"version": "1.0",
+	"description": "﻿Ｃｈａｎｇｅ ｙｏｕｒ ｔｅｘｔ ｉｎｔｏ ｖａｐｏｒｗａｖｅ！",
+	"icons": {
+		"128": "assets/icon.png",
+		"48": "assets/icon.png",
+		"16": "assets/icon.png"
+	},
+	"background": {
+		"scripts": [ "main.js" ]
+	},
+	"permissions": [ "storage" ],
+    "browser_action": {
+  		"default_title": "Vaporwave Text Generator",
+  		"default_icon": "assets/icon.png"
+  	},
+    "offline_enabled": true
+}
